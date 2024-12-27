@@ -1,0 +1,28 @@
+{
+  "name": "auth-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingWndr15/auth-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingWndr15/auth-backend/issues"
+  },
+  "homepage": "https://github.com/KingWndr15/auth-backend#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2",
+    "nodemon": "^3.1.9",
+    "uuid": "^11.0.3"
+  }
+}
